@@ -1,11 +1,6 @@
 package CodeWars;
 
 public class SimpleStringReversal {
-    public static void main(String[] args) {
-        String test = "Ra ra  s";
-        System.out.println(solve(test));
-    }
-
     public static String solve(String s) {
         String tempValue = s;
         s = s.replaceAll(" ", "");
