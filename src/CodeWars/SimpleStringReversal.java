@@ -14,7 +14,7 @@ public class SimpleStringReversal {
         s = changeValue.toString();
         for (int i = 0; i < s.length(); i++) {
             if (tempValue.charAt(i) == ' ') {
-               s = s.substring(0,i) + " " + s.substring(i);
+                s = s.substring(0, i) + " " + s.substring(i);
             }
         }
 
